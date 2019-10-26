@@ -39,7 +39,7 @@ Node *insert(LinkList head, int index, int val) {
 		node->next = p->next;
 		p->next = node;
 		node->pre = p;
-	} else {
+    } else {
 		node->next = p->next;
 		p->next->pre = node;
 		p->next = node;
